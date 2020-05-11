@@ -1,0 +1,331 @@
+/*
+ * Author 	: HIMANSHU GUPTA 
+ * Email 		: himanshucse2012@gmail.com
+ * Website	:	http://www.indioweb.in/portfolio
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+ 
+/*
+ * Basic CSS starts 
+ */
+
+body{
+	font-family: 'Open Sans', Sans Serif;
+	font-weight: 400;
+	color: #545454;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', Sans Serif;
+	font-weight: 600;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+	color: #fb6c6c;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #e32b2b;
+}
+
+a:hover,a:active,a:focus {
+	outline: 0;
+}
+
+hr{
+
+}
+
+:focus {
+	outline:none;
+}
+
+::-moz-focus-inner {
+	border:0;
+}
+
+/* 
+ * Basic CSS ends 
+ */
+
+header .navbar { 
+	margin: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #fb6c6c; 
+	box-shadow: 0 1px 15px rgba(0,0,0,0.2);
+}
+header .navbar-nav>li>a {
+	margin: 15px 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+header .navbar-default .navbar-nav>li>a:hover, 
+header .navbar-default .navbar-nav>li>a:focus,
+header .navbar-default .navbar-nav>li.open>a:hover, 
+header .navbar-default .navbar-nav>li.open>a:focus {
+	background: #fff;
+	border: 1px solid #fb6c6c;
+}
+
+header .navbar-nav .dropdown-menu {
+	top: 57px;
+	border-radius: 3px;
+	border-color: #fb6c6c;
+}
+header .navbar-nav .dropdown-menu:after, 
+header .navbar-nav .dropdown-menu:before {
+	bottom: 100%;
+	right: 30px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+header .navbar-nav .dropdown-menu:after {
+	border-color: rgba(240, 253, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 7px;
+}
+
+header .navbar-nav .dropdown-menu:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #fb6c6c;
+	border-width: 8px;
+	margin-right: -1px;
+}
+header .navbar-brand {
+	padding: 0;
+	height: auto;
+}
+header .navbar-brand img {
+	position: relative;
+	top: 7px;
+	max-width: 165px;
+}
+
+/*
+ * Banner 
+ */
+ 
+.banner {
+	background-image: url('../img/back.jpg');
+	background-repeat: no-repeat;
+	padding-top: 410px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.banner h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 28px;
+	line-height: 35px;
+	color: #eee;
+	text-transform: capitalize;
+}
+.banner h3 {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	line-height: 25px;
+	color: #ddd;
+	text-transform: uppercase;
+	letter-spacing: 0.055em;
+}
+
+.banner .btn {
+	padding: 7px 25px;
+	font-size: 14px;
+	border-radius: 30px;
+}
+
+/*
+ * default heading
+ */
+
+.default-heading {
+	margin-bottom: 30px;
+	text-align: center; 
+}
+.default-heading h2 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 32px; 
+}
+.default-heading p {
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: capitalize;
+	letter-spacing: 0.055em;
+}
+
+/*
+ * works
+ */
+ 
+.works {
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+.works .work-item {
+	max-width: 360px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.works .work-item h3 {
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.works .work-item .org {
+	display: block;
+	font-size: 13px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+/*
+ * team
+ */
+ 
+.team {
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+.team .member {
+	max-width: 360px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.team .member h4 {
+	margin-top: 20px;
+	font-size: 22px;
+}
+.team .member p {
+	padding: 0 15px;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+
+/*
+ * Contact
+ */
+ 
+.contact {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.contact h3 {
+	margin-top: 0px;
+	font-size: 20px;
+}
+.contact p {
+	padding: 0 15px;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+footer {
+	padding: 50px 0;
+	background: #e32b2b;
+	text-align: center;
+}
+
+footer p {
+	font-size: 13px;
+	line-height: 25px;
+	color: #fff;
+}
+footer p a { 
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 0.055em;
+	color: #fff;
+}
+footer p a:hover { color: #fb6c6c; }
+footer img {
+	max-width: 150px !important;
+	margin: 15px auto;
+	background: #f8f8f8;
+	border-radius: 4px;
+}
+
+footer .social a {
+	display: inline-block;
+	margin: 0 2px;
+	margin-top: 5px;
+	padding: 2px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: #fff;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+footer .social a  i {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px dashed #e32b2b;
+}
+
+footer .copy-right {
+	margin-top: 10px;
+}
+
+/*
+ * Responsive CSS 
+ */
+
+/*
+ * Mobile phones 
+ */
+@media (max-width: 480px){
+
+}
+
+/*
+ * Tablets 
+ */
+@media (max-width: 767px){
+	header .navbar-nav .dropdown-menu:after, 
+	header .navbar-nav .dropdown-menu:before { display: none;}
+	.contact .contact-container {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	.contact .contact-container form{	margin-bottom: 30px;}
+	.contact .contact-container .map { margin-top: 30px; }
+}
+
+/*
+ * Desktop 
+ */
+@media (max-width: 991px){
+
+}
